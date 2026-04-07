@@ -1,0 +1,5 @@
+{
+  "EMAIL_USER": "your_email@example.com",
+  "EMAIL_PASS": "your_email_password",
+  "MONGO_URL": "mongodb+srv://username:password@cluster0.mongodb.net/yourdbname"
+}

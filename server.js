@@ -22,7 +22,7 @@ const io = new Server(server, {
 app.use((req, _res, next) => { req.io = io; next(); });
 
 /* ─── Middleware ─────────────────────────────────────────── */
-app.use(cors({ origin: process.env.CLIENT_URL || 'http://localhost:3000', credentials: true }));
+app.use(cors({ origin: true, credentials: true }));
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true }));
 
